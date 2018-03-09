@@ -1,0 +1,812 @@
+/*
+* @Author: zhang
+* @Date:   2018-01-08 09:36:43
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-01-10 00:47:30
+*/
+@import url('base.css');
+/* 头部 */
+.header_top{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.header_center{
+	height: 40px;
+	margin: 0 auto;
+}
+.header_center span{
+	font-size: 12px;
+	color: #A8A8AA;
+	float: right;
+	line-height: 40px;
+}
+/* 导航栏 */
+nav{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+}
+nav ul{
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li a{
+	font-size: 16px;
+	color: #fff;
+	line-height: 44px;
+	transition: all .2s;
+}
+nav ul li a:hover{
+	color: #C9C9C9;
+}
+nav ul li a .iconfont{
+	font-size: 18px;
+	color: #fff;
+	line-height: 44px;
+	transition: all .2s;
+}
+nav ul li a .iconfont:hover{
+	color: #C9C9C9;
+}
+.big_box{
+	width: 100%;	
+	height: auto;
+}
+.big_box .X{
+	width: 100%;	
+	background: #FAFAFA;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+.big_box .X a{
+	display: block;
+	width: 100%;	
+	height: 100%;
+	overflow: hidden;	
+	position: relative;
+}
+.big_box .X a h2{
+	color: #111111;
+	text-align: center;
+	font-weight: 600;
+}
+.big_box .X a h3{
+	color: #111111;
+	text-align: center;
+	font-weight: 400;
+}
+.big_box .X a .img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.big_box .two{
+	width: 100%;	
+	height: 580px;	
+	background: #f9f0eb;
+	margin: 0 auto;
+	margin-bottom: 12px;
+}
+.big_box .two a{
+	display: block;
+	width: 100%;	
+	height: 100%;
+	overflow: hidden;	
+	position: relative;
+}
+.big_box .two a h2{
+	color: #111111;
+	text-align: center;
+	font-weight: 600;
+}
+.big_box .two a h3{
+	color: #111111;
+	text-align: center;
+	font-weight: normal;
+}
+.big_box .two a .img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* 宫格图 */
+.dahezi{
+	width: 100%;	
+	height: auto;	
+	overflow: hidden;
+}
+.dahezi li{
+	background: #fafafa;
+	margin-bottom: 12px;	
+}
+.dahezi .first a{
+	display: block;
+	width: 100%;	
+	height: 100%;	
+	position: relative;
+	overflow: hidden;
+}
+.dahezi .first a h2{
+	color: #111111;
+	text-align: center;
+	font-weight: 600; 
+}
+.dahezi .first a h3{
+	color: #111111;
+	text-align: center;
+    font-weight: 400; 
+}
+.dahezi .first .tupian{
+	background: pink;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dahezi .three a{
+	display: block;
+	width: 100%;	
+	height: 100%;	
+	position: relative;
+	overflow: hidden;
+}
+.dahezi .three a h2{
+	color: #111111;
+	text-align: center;
+	font-weight: 600; 
+}
+.dahezi .three a h3{
+	color: #111111;
+	text-align: center;
+    font-weight: 400; 
+}
+.dahezi .three .tupian{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dahezi .four a{
+	background: #1A1A1A;
+	display: block;
+	width: 100%;
+	height: 100%;	
+	position: relative;
+	overflow: hidden;
+}
+.dahezi .four a h2{
+	color: #fff;
+	text-align: center;
+	font-weight: 600; 
+}
+.dahezi .four a h3{
+	color: #fff;
+	text-align: center;
+    font-weight: 400; 
+}
+.dahezi .four .tupian{
+	background: pink;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* 结尾 */
+.over{
+	height: 412px;
+	background: #F2F2F2;
+	padding-bottom: 12px;
+	overflow: hidden;
+}
+.over .over_box{
+	height: 286px;
+	padding-top: 30px;
+	margin: 0 auto;
+	display: flex;
+}
+.over .over_box li{
+	height: 286px;
+}
+.over .over_box li div{
+	font-size: 10px;
+	color: #333333;
+	font-weight: bold;
+}
+.over .over_box li .word{
+	margin-top: 24px;
+}
+.over .over_box li a{
+	display: block;
+	margin-bottom: 2px;
+}
+.over .over_box li a span{
+	font-size: 10px;
+	color: #333;
+}
+.over .over_box li span:hover{
+	border-bottom: 1px solid #333;
+}
+.over .bottom{
+	height: 24px; 
+}
+.over .bottom span{
+	font-size: 10px;
+	color: #888888;
+	padding-bottom: 5px;
+}
+.over .bottom a{
+	font-size: 10px;
+	color: #0070C9;
+}
+.over .bottom a:hover{
+	border-bottom: 1px solid #0070C9;
+}
+.over .bo2{
+	height: 23px;
+	margin: 0 auto;
+}
+.over .bo2 p{
+	font-size: 10px;
+	color: #888888;
+	margin-right: 30px;
+	margin-top: 5px;
+	float: left;
+}
+.over .bo2 a{
+	font-size: 10px;
+	color: #333;
+}
+.over .bo2 a:hover{
+	border-bottom: 1px solid #333;
+}
+.over .bo2 span{
+	padding: 0 12px;
+	font-size: 10px;
+	color: #D6D6D6;
+}
+.over .bo2 .img_box{
+	display: block;
+	width: 45px;
+	height: 17px;
+	margin-top: 3px;
+	float: right;
+	background: url('../img/zhongguo.jpg') no-repeat center left;
+}
+.over .bo2 .img_box a{
+	font-size: 10px;
+	color: #333;
+	float: right;
+}
+.over .bo3{
+	height: 17px;
+	margin: 0 auto;
+}
+.over .bo3 span{
+	font-size: 10px;
+	color: #888888;
+}
+.over .bo3 a{
+	font-size: 10px;
+	color: #888888;
+}
+.over .bo3 a:hover{
+	border-bottom: 1px solid #888888;
+}
+/* 大于1024 */
+@media screen and (min-width: 1024px){
+	.header_center{
+		width: 976px;
+	}
+	.daping{
+		display: block;
+	}
+	.xiaoping{
+		display: none;
+	}
+	nav ul{
+		width: 976px;
+	}
+	.big_box .X{
+		height: 580px;	
+	}
+	.big_box .X a h2{
+		font-size: 56px;
+		line-height: 62px;
+		margin-top: 88px;
+	}
+	.big_box .X a h3{
+		font-size: 27px;
+		line-height: 40px;
+	}
+	.big_box .X a .img{
+		width: 909px;	
+		height: 194px;	
+		bottom: 112px;
+		background: url('../img/iphone_x_1.jpg') no-repeat center center;
+		background-size: 909px 194px;
+	}
+	/* 第二张 */
+	.big_box .two{
+		height: 580px;	
+	}
+	.big_box .two a h2{
+		font-size: 56px;
+		line-height: 56px;
+		margin-top: 47px;
+	}
+	.big_box .two a h3{
+		font-size: 22px;
+		line-height: 28px;
+		margin-top: 7px;
+	}
+	.big_box .two a .img{
+		width: 561px;	
+		height: 395px;	
+		background: url('../img/iphone_8_1.jpg') no-repeat center center;
+		background-size: 549px 388px;
+	}
+	.dahezi li{
+		width: 50%;	
+		height: 580px;	
+		border-right: 12px solid #fff;
+		float: left;
+		box-sizing: border-box;
+	}
+	.dahezi li:nth-child(2n+1){
+		border-left : 12px solid #fff;
+	}
+	.dahezi .first a h2{
+		font-size: 40px;
+		line-height: 1.1; 
+		margin-top: 52px;
+	}
+	.dahezi .first a h3{
+		font-size: 21px;
+		margin-top: 4px;
+		line-height: 1.2;
+	}
+	.dahezi .first .tupian{
+		width: 385px;	
+		height: 304px;	
+		bottom: 74px;
+		background: url('../img/airpods_1.jpg') no-repeat center;
+		background-size: 385px 304px;
+	}
+	.dahezi .three a h2{
+		font-size: 40px;
+		line-height: 1.1; 
+		margin-top: 52px;
+	}
+	.dahezi .three a h3{
+		font-size: 21px;
+		margin-top: 4px;
+		line-height: 1.2;
+	}
+	.dahezi .three .tupian{
+		width: 510px;	
+		height: 146px;	
+		bottom: 154px;
+		background: url('../img/ipad_pro_1.jpg') no-repeat center;
+		background-size: 510px 146px;
+	}
+	.dahezi .four a h2{
+		font-size: 40px;
+		line-height: 1.1; 
+		margin-top: 52px;
+	}
+	.dahezi .four a h3{
+		font-size: 21px;
+		margin-top: 4px;
+		line-height: 1.2;
+	}
+	.dahezi .four .tupian{
+		width: 450px;	
+		height: 457px;	
+		bottom: 0;
+		background: url('../img/imac_pro_large.jpg') no-repeat center;
+		background-size: 450px 457px;
+	}
+	.over{
+		width: 100%;
+	}
+	.over .over_box{
+		width: 980px;
+	}
+	.over .over_box li{
+		width: calc(980px / 5);
+	}
+	.over .bottom{
+		width: 980px;
+		margin: 25px auto 0;
+		border-bottom: 1px solid #D6D6D6;
+	}
+	.over .bo2{
+		width: 980px;
+	}
+	.over .bo3{
+		width: 980px;
+	}
+	.over_xiao{
+		display: none;
+	}
+}
+/* 小于1024 */
+@media screen and (max-width: 1024px){
+	.header_center{
+		padding: 0 16px;
+	}
+}
+/* 大于768-小于1024 */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.daping{
+		display: block;
+	}
+	.xiaoping{
+		display: none;
+	}
+	nav ul{
+		padding: 0 16px;
+	}
+	.big_box .X{
+		height: 580px;	
+	}
+	.big_box .X a h2{
+		font-size: 40px;
+		line-height: 48px;
+		margin-top: 101px;
+	}
+	.big_box .X a h3{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.big_box .X a .img{
+		width: 704px;	
+		height: 148px;	
+		bottom: 144px;
+		background: url('../img/iphone_x_2.jpg') no-repeat center center;
+		background-size: 704px 148px;
+	}
+	.big_box .two{
+		height: 569px;	
+	}
+	.big_box .two a h2{
+		font-size: 44px;
+		line-height: 32px;
+		margin-top: 70px;
+	}
+	.big_box .two a h3{
+		font-size: 24px;
+		margin-top: 5px;
+		line-height: 33px;
+	}
+	.big_box .two a .img{
+		width: 549px;	
+		height: 388px;	
+		background: url('../img/iphone_8_2.jpg') no-repeat center center;
+		background-size: 549px 388px;
+	}
+	.dahezi li{
+		width: 50%;	
+		height: 490px;	
+		border-right: 12px solid #fff;
+		float: left;
+		box-sizing: border-box;
+	}
+	.dahezi li:nth-child(2n+1){
+		border-left: 12px solid #fff;
+	}
+	.dahezi .first a h2{
+		font-size: 32px;
+		line-height: 1.12; 
+		margin-top: 42px;
+	}
+	.dahezi .first a h3{
+		font-size: 19px;
+		margin-top: 3px;
+		line-height: 1.21;
+	}
+	.dahezi .first .tupian{
+		width: 269px;	
+		height: 212px;	
+		bottom: 88px;
+		background: url('../img/airpods_2.jpg') no-repeat center;
+		background-size: 269px 212px;
+	}
+	.dahezi .three a h2{
+		font-size: 32px;
+		line-height: 1.12; 
+		margin-top: 42px;
+	}
+	.dahezi .three a h3{
+		font-size: 19px;
+		margin-top: 3px;
+		line-height: 1.21;
+	}
+	.dahezi .three .tupian{
+		width: 318px;	
+		height: 91px;	
+		bottom: 136px;
+		background: url('../img/ipad_pro_2.jpg') no-repeat center;
+		background-size: 318px 91px;
+	}
+	.dahezi .four a h2{
+		font-size: 32px;
+		line-height: 1.12; 
+		margin-top: 42px;
+	}
+	.dahezi .four a h3{
+		font-size: 19px;
+		margin-top: 3px;
+		line-height: 1.21;
+	}
+	.dahezi .four .tupian{
+		width: 380px;	
+		height: 390px;	
+		bottom: 0;
+		background: url('../img/imac_pro_medium.jpg') no-repeat center;
+		background-size: 380px 390px;
+	}
+	.over{
+		width: 100%;
+		padding: 0 16px;
+		box-sizing: border-box;
+	}
+	.over .over_box{
+		width: 100%;
+		padding: 30px 16px 0 16px;
+		box-sizing: border-box;
+	}
+	.over .over_box li{
+		width: 20%;
+	}
+	.over .bottom{
+		width: 100%;
+		margin-top: 50px;
+		border-bottom: 1px solid #D6D6D6;
+		box-sizing: border-box;
+	}
+	.over .bo2{
+		width: 100%;
+	}
+	.over .bo3{
+		width: 100%;
+	}
+	.over_xiao{
+		display: none;
+	}
+}
+/* 小于768px */
+@media screen and (max-width: 768px) {
+	.daping{
+		display: none;
+	}
+	.xiaoping{
+		display: block;
+	}
+	nav ul{
+		padding: 0 16px;
+	}
+	.big_box .X{
+		height: 500px;	
+	}
+	.big_box .X a h2{
+		font-size: 32px;
+		line-height: 36px;
+		margin-top: 46px;
+	}
+	.big_box .X a h3{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.big_box .X a .img{
+		width: 167px;	
+		height: 333px;	
+		bottom: 38px;
+		background: url('../img/iphone_x_3.jpg') no-repeat center center;
+		background-size: 167px 333px;
+	}
+	.big_box .two{
+		height: 500px;	
+	}
+	.big_box .two a h2{
+		font-size: 37px;
+		line-height: 46px;
+		margin-top: 37px;
+	}
+	.big_box .two a h3{
+		font-size: 19px;
+		margin-top: 5px;
+		line-height: 2px;
+	}
+	.big_box .two a .img{
+		width: 267px;	
+		height: 357px;	
+		background: url('../img/iphone_8_3.jpg') no-repeat center center;
+		background-size: 267px 357px;
+	}
+	.dahezi li{
+		width: 100%;	
+		height: 500px;	
+	}
+	.dahezi .first a h2{
+		font-size: 32px;
+		line-height: 1.125; 
+		margin-top: 37px;
+	}
+	.dahezi .first a h3{
+		font-size: 19px;
+		margin-top: 3px;
+		line-height: 1.21;
+	}
+	.dahezi .first .tupian{
+		width: 244px;	
+		height: 193px;	
+		bottom: 104px;
+		background: url('../img/airpods_3.jpg') no-repeat center;
+		background-size: 244px 193px;
+	}
+	.dahezi .three a h2{
+		font-size: 32px;
+		line-height: 1.125; 
+		margin-top: 37px;
+	}
+	.dahezi .three a h3{
+		font-size: 19px;
+		margin-top: 3px;
+		line-height: 1.21;
+	}
+	.dahezi .three .tupian{
+		width: 299px;	
+		height: 86px;	
+		bottom: 146px;
+		background: url('../img/ipad_pro_3.jpg') no-repeat center;
+		background-size: 299px 86px;
+	}
+	.dahezi .four a h2{
+		font-size: 32px;
+		line-height: 1.125; 
+		margin-top: 37px;
+	}
+	.dahezi .four a h3{
+		font-size: 19px;
+		margin-top: 3px;
+		line-height: 1.21;
+	}
+	.dahezi .four .tupian{
+		width: 323px;	
+		height: 333px;	
+		bottom: 0;
+		background: url('../img/imac_pro_small.jpg') no-repeat center;
+		background-size: 323px 333px;
+	}
+	.over{
+		display: none;
+	}
+	.over_xiao{
+		width: 100%;
+		height: 435px;
+		padding: 0 16px;
+		box-sizing: border-box;
+		background: #F2F2F2;
+	}
+	.over_xiao .oo_box{
+		width: 100%;
+		height: 18px;
+		padding: 10px 0;
+		border-bottom: 1px solid #D6D6D6;
+	}
+	.over_xiao .oo_box a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.over_xiao .oo_box a span{
+		font-size: 12px;
+		color: #333;
+	}
+	.over_xiao .oo_box a span:first-child{
+		float: left;
+	}
+	.over_xiao .oo_box a span:last-child{
+		font-size: 14px;
+		color: #333;
+		float: right;
+	}
+	.over_xiao .oo_box a:hover span{
+		color: #000;
+	}
+	.over_xiao .oo_bottom{
+		width: 100%;
+		height: 126px;
+		padding-top: 17px;
+	}
+	.over_xiao .oo_bottom .b_one{
+		width: 100%;
+		height: 17px;
+		padding-bottom: 6px;
+		margin-bottom: 7px;
+	}
+	.over_xiao .oo_bottom .b_one span{
+		font-size: 10px;
+		color: #888888;
+		padding-bottom: 5px;
+	}
+	.over_xiao .oo_bottom .b_one a{
+		font-size: 10px;
+		color: #0070C9;
+	}
+	.over_xiao .oo_bottom .b_one a:hover{
+		border-bottom: 1px solid #0070C9;
+	}
+	.over_xiao .oo_bottom .b_two{
+		width: 100%;
+		height: 17px;
+		padding-top: 5px;
+		margin-top: 3px;
+	}
+	.over_xiao .oo_bottom .b_two .img_he{
+		width: 45px;
+		height: 17px;
+		background: url('../img/zhongguo.jpg') no-repeat center left;
+	}
+	.over_xiao .oo_bottom .b_two .img_he a{
+		font-size: 10px;
+		color: #333;
+		float: right;
+	}
+	.over_xiao .oo_bottom .b_two .img_he a:hover{
+		border-bottom: 1px solid #888888;
+	}
+	.over_xiao .oo_bottom .b_three{
+		width: 100%;
+		height: 17px;
+		margin-top: 3px;
+	}
+	.over_xiao .oo_bottom .b_three span{
+		font-size: 10px;
+		color: #888888;
+	}
+	.over_xiao .oo_bottom .b_four{
+		width: 100%;
+		height: 20px;
+		margin-top: 3px;
+	}
+	.over_xiao .oo_bottom .b_four a{
+		font-size: 10px;
+		color: #333;
+	}
+	.over_xiao .oo_bottom .b_four a:hover{
+		border-bottom: 1px solid #333;
+	}
+	.over_xiao .oo_bottom .b_four span{
+		padding: 0 12px;
+		font-size: 10px;
+		color: #D6D6D6;
+	}
+	.over_xiao .oo_bottom .b_five{
+		width: 100%;
+		height: 17px;
+	}
+	.over_xiao .oo_bottom .b_five span{
+		font-size: 10px;
+		color: #888888;
+	}
+	.over_xiao .oo_bottom .b_five a{
+		font-size: 10px;
+		color: #888888;
+	}
+	.over_xiao .oo_bottom .b_five a:hover{
+		border-bottom: 1px solid #888888;
+	}
+}

@@ -1,0 +1,181 @@
+body{
+    background: #F9F8F6;
+}
+.head{
+    width: 100%;
+    height: .9rem;
+    background: #dedede;
+    padding: 0 4.3%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.headimg{
+    width: 2.3rem;
+    height: .5rem;
+    margin-top: -.34rem;
+    float: left;
+}
+.headtb{
+    width: .5rem;
+    height: .5rem;
+    float: right;
+    margin-top: .2rem;
+    margin-right: .25rem ;
+    font-size: .4rem;
+    text-align: center;
+    line-height: .4rem;
+    color: #90704D;
+}
+.headtb .iconfont{
+    font-size: 0.4rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/*热门*/
+.rn{
+    width: 100%;
+    height: .8rem;
+    background: #ededed;
+}
+.rn .rm{
+    width: 50%;
+    height: 100%;
+    /*background: blue;*/
+    text-align: center;
+    line-height: .8rem;
+    font-size: .16rem;
+    color: #000;
+    float: left;
+}
+.rm1{
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #81b7d0;
+}
+.rn .active{
+    color: #81b7d0;
+}
+.rn .qb{
+    width: 50%;
+    height: 100%;
+    /*background: blue;*/
+    text-align: center;
+    line-height: .8rem;
+    font-size: .16rem;
+    color: #000;
+    float: left;
+}
+
+
+/*热门内容*/
+.rnnr{
+    width: 100%;
+    height: 9rem;
+    /*background: blue;*/
+}
+.rnim{
+    width: 3.2rem;
+    height: 2.2rem;
+    /*background: blue;*/
+    float: left;
+    margin-left: .35rem;
+    margin-top: .25rem;
+    border-radius: 0.1rem;
+    position: relative;
+    float: left;
+}
+.rnim2{
+    float: right;
+    margin-right: .35rem;
+    }
+.rnim img{
+    width: 100%;
+    height: 100%;
+}
+.rnmmzz{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 80;
+    background: rgba(0, 0, 0, .2);
+    text-align: center;
+    color: #ffffff;
+    font-size: .16rem;
+}
+.rnmmzz h1{
+    margin-top: .5rem;
+}
+.rnmmzz p{
+    margin-top: .3rem;
+}
+
+
+
+
+/* Tab开始 */
+.tab{
+    width: 100%;
+    height: 1.2rem;
+    background: #dedede;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 99;
+}
+.tab li{
+    width: 25%;
+    height: 100%;
+    /*background: red;*/
+    float: left;
+    position: relative;
+}
+.tab li .tobic{
+    width: .6rem;
+    height: .6rem;
+    /*background: yellow;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.tab li .tobic .iconfont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:  auto;
+    text-align: center;
+    line-height: .6rem;
+    font-size: 0.4rem;
+    font-weight: bold;
+    margin-left: 0.1rem;
+    margin: 0 auto;
+    color: #90704D;
+}
+.tab li .tabwz{
+    position: relative;
+    width: 100%;
+    height: .6rem;
+    /*background: blue;*/
+    z-index: 999;
+}
+.tab li .tabwz p{
+    margin-top: .1rem;
+    text-align: center;
+    color: #0d0d0d;
+    font-size: .38rem;
+    margin-top: 0;
+    z-index: 9999;
+    color: #90704D;
+
+}
+
+/* Tab结束 */
+

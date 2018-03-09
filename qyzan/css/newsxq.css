@@ -1,0 +1,569 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-31 18:30:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-31 23:51:13
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-10-30 23:16:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-30 23:58:07
+*/
+/*
+* @Author: Administrator
+* @Date:   2017-10-25 18:05:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-29 15:43:10
+*/
+@import url(base.css);
+/* 最上边开始编写 */
+.icon-dianhua{
+	font-size: 14px;
+	color: white;
+	margin-right: 5px;
+}
+.header-top{
+	width: 100%;
+	height: 44px;
+	background: #00469C;
+
+}
+.header-top .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+.header-top .left{
+	/* height: 100%; */
+	font-size: 14px;
+	color: white;
+}
+.header-top .right{
+	/* height: 100%; */
+	width:200px;
+	display: flex;
+	justify-content: space-between;
+}
+.header-top .right a{
+    display: inline-block;
+	font-size: 14px;
+	color: white;
+}
+
+
+
+
+/* 头部开始编写 */
+header{
+	width: 100%;
+	height: 75px;
+	background: #fcfcfc;
+}
+header .container{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header .container .head-logo{
+	/* float: left; */
+	/* width: 40%; */
+	display: block;
+	height: 100%;
+    padding: 7.5px 0;  
+} 
+header .container .head-logo .img-box{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+} 
+header .container .head-logo .img-box span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #0d60e9;
+	height: 60px;
+	line-height: 60px;
+}
+header .container .head-logo .img-box img{
+	display: block;
+	height: 100%;
+	width: 100px;
+}
+header .container  .head-right{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header .container  .head-right li{
+	/* float: left; */
+}
+header .container  .head-right a{
+    display: block;
+    /* width: 106px; */
+    height: 100%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s;
+}
+header .container  .head-right a:hover{
+	background: #fff;
+}
+/* header .container .biaoyu{
+	font-size: 20px;
+	font-weight: bold;
+	color: #0d60e9;
+	height: 100%;
+	line-height: 75px;
+} */
+header .container  .caidan{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header .container  .caidan span{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transition: 0.2s;
+}
+header .container  .caidan span:hover{
+	border: 1px solid #666;
+}
+header .container  .caidan span:hover i{
+	color: #666;
+}
+.icon-caidan{
+	font-size: 24px;
+	color: #ccc;
+	transition: 0.2s;
+
+}
+
+
+/* 内容开始编写 */
+.contain .content1 h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 30px;
+}
+.contain .content1 .p1{
+	display: flex;
+	/* width: 40%; */
+	/* justify-content: space-between; */
+	align-items: center;
+	 margin-top: 10px;
+}
+.contain .content1 .p1 i{
+	font-size: 14px;
+	color: #969292;
+}
+.contain .content1 .p1 a{
+	font-size: 14px;
+	color: #666;
+}
+.contain .content1 .p1 span{
+	font-size: 14px;
+	color: #666;
+}
+.contain .content1 .p2{
+	font-size: 14px;
+	color: #666;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contain .content1 img{
+	display: block;
+	width: 100%;
+
+}
+.contain .content1 .title1{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.contain .content1 .title2{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.contain .content1 .miaoshu{
+	font-size: 14px;
+	color: #666;
+}
+.contain .content1  ul{
+	margin: 50px 0;
+	list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+}
+.contain .content1  ul span{
+	font-size: 14px;
+	color: #666;
+}
+.contain .content1  ul a{
+	font-size: 14px;
+	color: #666;
+}
+.contain .content1  ul a:hover{
+	color: #2a77ca;
+}
+
+.contain .content{
+	float: right;
+}
+.contain .content h1{
+	font-size: 25px;
+	color: #333;
+	margin-top: 30px;
+}
+.contain .content .fenge{
+	height: 1px;
+	width: 100%;
+	background: -webkit-linear-gradient(left,#a09d9d,white);
+	margin-top: 20px;
+}
+.contain .content .list{
+	width: 100%;
+	
+}
+.contain .content .list a{
+	display: block;
+	font-size: 14px;
+	color: #666;
+	margin-top: 20px;
+	transition: 0.1s;
+}
+.contain .content .list a:first-child{
+	color: #00469c;
+}
+.contain .content .list a:hover{
+	color: #00469c;
+}
+.contain .content .img-box{
+	width: 100%;
+	height: 175px;
+	position: relative;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.contain .content .img-box img{
+	position: absolute;
+	left: 262.5px;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.contain .content .img-box .xiaoyuan{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 10px;
+	width: 16%;
+}
+.contain .content .img-box .xiaoyuan span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+}
+.contain .content .img-box .xiaoyuan .active{
+	background: blue;
+}
+.contain .content .box{
+	width: 100%;
+	height: 100px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	border-bottom: 1px solid #d0caca;
+}
+.contain .content .box img{
+	display: block;
+	width: 40%;
+	height: 100%;
+}
+.contain .content .box  .title{
+	width: 56%;
+	height: 100%;
+}
+.contain .content .box  .title h2{
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+}
+.contain .content .box  .title p{
+	margin-top: 5px;
+	display: flex;
+}
+.contain .content .box  .title i{
+	font-size: 12px;
+	color: #666;
+}
+.contain .content .box  .title span{
+	font-size: 12px;
+	color: #666;
+}
+
+
+
+.top-xs{
+	display: block;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* cursor: pointer; */
+	transition: all 0.2s;
+}
+.icon-jiantoushang{
+	font-size: 30px;
+	color: white;
+}
+.top-xs:hover{
+	background: rgba(0, 0, 0, 0.7);
+}
+
+/* 尾部开始编写 */
+footer{
+
+	width: 100%;
+	height: 350px;
+	background: #222;
+}
+footer .container{
+	height: 100%;
+}
+footer .row{
+	height: 100%;
+}
+footer .content1{
+	display: flex;
+	justify-content: space-between;
+    height: 100%;
+}
+footer .one{
+	margin-top: 30px;
+}
+footer .one a{
+	display: block;
+	color: #a7a7a7;
+	font-size: 14px;
+	margin-top: 15px;
+	transition: all 0.2s;
+}
+footer .one a:first-child{
+	font-size: 16px;
+}
+footer .one a:hover{
+	color: white;
+}
+footer .content2{
+	height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+footer .content2 .footer-tu{
+	margin-top: 30px;
+}
+footer .content2 .p1{
+    font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+footer .content2 a{
+	margin-top: 15px;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+footer .content2 a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* 移动端的底部布局 */
+.icon{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+.icon-arrow-down{
+	font-size: 18px;
+	color: white;
+}
+.footer2{
+	width: 100%;
+	background: black;
+}
+.footer2 a{
+	display: block;
+	width: 100%;
+	height: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #3c3a3a;
+    display: flex;
+    justify-content: space-between;
+}
+.footer2 a .s1{
+	height: 100%;
+	color: white;
+	font-size: 14px;
+	line-height: 45px;
+}
+.footer2 a .s2{
+	line-height: 45px;
+}
+
+/* 最底部开始编写 */
+.subfooter{
+	background: #1b1919;
+	height: 60px;
+	width: 100%;
+}
+.subfooter .container{
+	height: 100%;
+
+	
+}
+.subfooter .container .left{
+	font-size: 14px;
+	color: #999;
+}
+.subfooter .container .right{
+	display: flex;
+	justify-content: space-around;
+	/* width: 250px; */
+}
+.subfooter .container .right a{
+	font-size: 14px;
+	color: #999;
+	transition: all 0.2s;
+}
+.subfooter .container .right a:hover{
+	color: white;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	.header-top{
+		padding: 0 15px;
+	}
+	.header-top .container .right{
+		display: none;
+	}
+	.footer2{
+		display: block;
+	}
+	footer{
+		display: none;
+	}
+	.banner{
+		height: 300px;
+	}
+	.subfooter .container .left{
+		text-align: center;
+		padding: 5px 0;
+	}
+	header{
+		padding: 0 15px;
+	}
+	header .container .head-logo span{
+		display: none;
+	}
+	header .container .head-right{
+		display: none;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+	.footer2{
+		display: none;
+	}
+	.banner{
+		height: 400px;
+	}
+	.subfooter .container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	header .container .head-right{
+		display: none;
+	}
+	header .container .biaoyu{
+		display: none;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 992px){
+	.footer2{
+		display: none;
+	}
+	.subfooter .container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	header .container .biaoyu{
+		display: none;
+	}
+	header .container  .caidan{
+		display: none;
+	}
+    header .container  .head-right a{
+		width: 97px;
+	}
+
+}
+@media screen  and (min-width: 1200px){
+	.footer2{
+		display: none;
+	}
+	.banner{
+		height: 500px;
+	}
+	.subfooter .container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	header .container .biaoyu{
+		display: none;
+	}
+	header .container  .caidan{
+		display: none;
+	}
+	header .container  .head-right a{
+		width: 97px;
+	}
+}

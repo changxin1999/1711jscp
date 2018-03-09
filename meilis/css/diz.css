@@ -1,0 +1,180 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-13 23:17:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-16 01:02:47
+*/
+
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 410703 */
+  src: url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.eot');
+  src: url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.svg#iconfont') format('svg');
+}
+
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000;
+	border-bottom: .01rem black solid;
+}
+span:nth-child(1){
+	width: .58rem;
+	height: .58rem;
+	background-color: #ffffff;
+	margin-left: .32rem;
+	float: left;
+	margin-top: .21rem;
+}
+span i{
+	font-size: .21rem;
+	float: left;
+	line-height: .58rem;
+	margin-left: .185rem;
+}
+
+span:nth-child(2){
+	width: 5.3rem;
+	height: .58rem;
+	background-color: #ffffff;
+	float: left;
+	margin-top: .21rem;
+	margin-left: .16rem;
+}
+
+.spmc{
+	width: 5.3rem;
+	height: .58rem;
+	background-color: #ffffff;
+	float: left;
+}
+.spmc h1{
+	font-size: .5rem;
+	text-align: center;
+	color: #3b3b3b;
+	line-height: .58rem;
+}
+span:nth-child(3){
+	/* width: .58rem;
+	height: .58rem; */
+	background-color: #ffffff;
+	float: left;
+	margin-top: .21rem;
+	/* margin-left: .16rem; */
+}
+span a{
+	float: left;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .58rem;
+}
+
+
+/* 内容 */
+
+section{
+	top: 1rem;
+	left: 0;
+	right: 0;
+	bottom: 1rem;
+	margin:auto;
+	background-color: #163c6a;
+
+	position: relative;
+	padding: .3rem .15rem .3rem .15rem;
+	color: #b0b0b0;
+}
+
+.dzhz{
+	width: 100%;
+	height: 1.6rem;
+	background-color: #163c6a;
+}
+
+.dzhzsm{
+	width: 100%;
+	height: .6rem;
+	background-color: #163c6a;
+}
+.dzhzsmzuo{
+	width: 50%;
+	height: .6rem;
+	background-color: #163c6a;
+	float: left;
+}
+.dzhzsmzuo h1{
+	font-size: .4rem;
+	line-height: .6rem;
+	color: #fff;
+}
+.dzhzsmyou{
+	width: 50%;
+	height: .6rem;
+	background-color: #163c6a;
+	float: left;
+}
+.dzhzsmyou h1{
+	font-size: .4rem;
+	line-height: .6rem;
+	text-align: center;
+	color: #fff;
+}
+
+
+.dzhzzj{
+	width: 100%;
+	height: .5rem;
+	background-color: #163c6a;
+}
+.dzhzzjz{
+	width: 80%;
+	height: .5rem;
+	background-color: #163c6a;
+	float: left;
+}
+.dzhzzjz h1{
+	font-size: .3rem;
+	line-height: .5rem;
+	color: #fff;
+}
+.dzhzzjy{
+	width: 20%;
+	height: .5rem;
+	background-color: #163c6a;
+	float: left;
+}
+.dzhzzjy i{
+	font-size: .5rem;
+	line-height: .5rem;
+	float: right;
+}
+
+
+.dzhzxm{
+	width: 100%;
+	height: .5rem;
+	background-color: #163c6a;
+}
+.dzhzxm h1{
+	font-size: .3rem;
+	line-height: .5rem;
+	color: #fff;
+}
+ a{
+	color: black;
+}

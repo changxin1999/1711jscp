@@ -1,0 +1,300 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-06 16:27:36
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-16 01:11:48
+*/
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 410703 */
+  src: url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.eot');
+  src: url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_410703_chilpnstqui35wmi.svg#iconfont') format('svg');
+}
+
+
+
+
+header{
+	width: 100%;
+	height: 1rem;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100000;
+}
+span:nth-child(1){
+	width: .58rem;
+	height: .58rem;
+	background-color: #ffffff;
+	margin-left: .32rem;
+	float: left;
+	margin-top: .21rem;
+}
+span img{
+	float: left;
+}
+span:nth-child(2){
+	width: 5.3rem;
+	height: .58rem;
+	background-color: #ffffff;
+	float: left;
+	margin-top: .21rem;
+	margin-left: .16rem;
+}
+
+.spmc{
+	width: 5.3rem;
+	height: .58rem;
+	background-color: #ffffff;
+	float: left;
+}
+.spmc h1{
+	font-size: .5rem;
+	text-align: center;
+	color: #3b3b3b;
+}
+/* .zj-tp{
+	width: 5.3rem;
+	height: .58rem;
+	background-color: black;
+	float: left;
+}
+.sstb{
+	width: .58rem;
+	height: .58rem;
+	background-color: #ffffff;
+	float: left;
+}
+.sstb img{
+	float: left;
+}
+.zj-tp input{
+	display: block;
+	width: 4.72rem;
+	height: .58rem;
+	float: left;
+} */
+span:nth-child(3){
+	width: .58rem;
+	height: .58rem;
+	background-color: #ffffff;
+	float: left;
+	margin-top: .21rem;
+	margin-left: .16rem;
+}
+
+
+/* 内容 */
+
+
+
+
+section{
+	position: absolute;
+	top: 1rem;
+	left: 0;
+	right: 0;
+	bottom: 1rem;
+	margin:auto;
+	background-color: red;
+	position: relative;
+}
+.banner{
+	width: 100%;
+	height: 3.9rem;
+	background-color: black;
+	background-image: url('../img/1626086583.jpg');
+/* 	background-size: cover; */            /*  中心点   显示不全 */
+	/* background-size: contain; */   /*  显示全部的 */
+	background-size: 100%;
+	text-align: center;
+}
+.bannerdd{
+	width: .9rem;
+	height: .12rem;
+/* 	background-color: yellowgreen; */
+	position: absolute;
+	top: 3.7rem;
+	left: 45%;
+}
+.bannerdd3g{
+	width: .12rem;
+	height: .12rem;
+	background-color: #ffffff;
+	border-radius: 50%;
+	float: left;
+	margin-left: .27rem;
+}
+.bannerdd3g1{
+	margin: 0;
+}
+.bannerdd3g2{
+	background-color: rgba(53, 53, 53, 0.2);
+}
+.felei{
+	width: 100%;
+	height: 2.5rem;
+	background-color: orangered;
+}
+.felei img{
+	border-radius: 50%;
+}
+.felei li{
+	width: 25%;
+	height: 2.5rem;
+	background-color: #ffffff;
+	float: left;
+}
+.felei li a{
+	display: block;
+	width: 1.6rem;
+	height: 1.6rem;
+	background-color: yellowgreen;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: .1rem;
+}
+.felei li h1{
+	font-size: .3rem;
+	text-align: center;
+	line-height: .6rem;
+	color: #2f2f2f;
+}
+
+
+.czpt{
+	width: 100%;
+	height: .6rem;
+	background-color: #ffffff;
+	padding: .0rem .2rem .0rem .2rem;
+}
+.czpt h2{
+	font-size: .28rem;
+	line-height: .6rem;
+	float: left;
+	color: black;
+}
+.czpt h1{
+	font-size: .28rem;
+	float: right;
+	line-height: .6rem;
+	color: black;
+}
+
+
+.czptxiamian{
+	width: 100%;
+	height: 2.62rem;
+	background-color: #ffffff;
+	/* border-bottom: .01rem black solid; */
+}
+.czptxiamiantp{
+	width: 2rem;
+	height: 2rem;
+	background-color: orangered;
+	float: left;
+	margin-top: .31rem;
+	background-image: url('../img/333.jpg');
+	background-size: cover;
+	background-position: top center; 
+}
+.czptxiamianyou{
+	width: 4.9rem;
+	height: 100%;
+	background-color: #ffffff;
+	float: right;
+	margin-right: .2rem;
+}
+.czptxiamianyou h1{
+	font-size: 0.28rem;
+	text-align:center;
+	margin-top: .38rem;
+	color: black;
+}
+.czptxiamianyou h2{
+	font-size: 0.4rem;
+	text-align:center;
+	margin-top: .2rem;
+	color: black;
+}
+.czptxiamianyou h3{
+	font-size: .15rem;
+	text-align:center;
+	margin-top: .1rem;
+	color: black;
+}
+.qkt{
+	width: 1.6rem;
+	height: .6rem;
+	background-color : #b0b0b0;
+	/* border-radius: 40%; */
+	margin: 0 auto;
+}
+
+.qkt h1{
+	font-size: .45rem;
+	margin: 0 auto;
+	margin-top: .15rem;
+	color: #3a3a3a;
+}
+
+
+
+
+			/* 结尾 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.xiamian{
+	width: 1.875rem;
+	height: 100%;
+	background-color: #ffffff;
+	float: left;
+}
+.xiamians{
+	width: 1.875rem;
+	height: .6rem;
+	background-color: #ffffff;
+	float: left;
+}
+.xiamians i{
+	font-size: 0.5rem;
+	float: left;
+	margin-left: .6875rem;
+	margin-top: .1rem;
+}
+.xiamians1 i{
+	font-size: 0.5rem;
+	float: left;
+	margin-left: .6875rem;
+	margin-top: .1rem;
+	color: #ff3366;
+}
+.xiamian h1{
+	font-size: 0.25rem;
+	text-align: center;
+}
+.xiamian h2{
+	font-size: 0.25rem;
+	text-align: center;
+	color: #ff3366;
+}
+.xiamian a{
+	color: black;
+}
